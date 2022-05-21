@@ -6,5 +6,5 @@ import App from './App';
 
 test('it renders the Azeno in headline', () => {
     const { container } = render(<App />);
-    expect(container.querySelector('h1')).toContainHTML('Azeno');
+    expect(container.querySelector('a')).toContainHTML('Profile');
 });
