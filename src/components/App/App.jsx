@@ -12,7 +12,7 @@ function App() {
     return (
         <BrowserRouter>
             <Header />
-            <CookieWrapper cookie={cookie} setCookie={setCookie} />
+            <CookieWrapper cookie={cookie} />
         </BrowserRouter>
     );
 }
