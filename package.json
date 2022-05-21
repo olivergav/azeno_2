@@ -12,7 +12,8 @@
     "test": "jest",
     "e2e": "cypress open",
     "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook"
+    "build-storybook": "build-storybook",
+    "api": "json-server --watch ./backend_api/db.json --port 3010"
   },
   "repository": {
     "type": "git",
@@ -62,6 +63,7 @@
     "html-webpack-plugin": "^5.5.0",
     "jest": "^28.1.0",
     "jest-environment-jsdom": "^28.1.0",
+    "json-server": "^0.17.0",
     "prettier": "^2.6.2",
     "sass": "^1.52.1",
     "sass-loader": "^13.0.0",
