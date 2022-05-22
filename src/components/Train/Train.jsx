@@ -20,7 +20,7 @@ function Train() {
     return (
         <Row xs={1} sm={2} md={4} className="g-4">
             {cards.map(({ id, name, level, quantity, image }) => (
-                <Col>
+                <Col key={id}>
                     <CardSet
                         key={id}
                         id={id}

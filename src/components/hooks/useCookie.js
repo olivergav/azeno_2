@@ -7,7 +7,6 @@ const useCookie = (cookieName) => {
         const val = document.cookie
             .split('; ')
             .filter((item) => item.startsWith(`${cookieName}=`))[0];
-        console.log(val);
 
         if (val !== undefined) {
             setCookie(val.split('=')[1]);
