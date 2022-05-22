@@ -13,7 +13,8 @@
     "e2e": "cypress open",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook",
-    "api": "json-server --watch ./backend_api/db.json --port 3010"
+    "api": "json-server --watch ./backend_api/db.json --port 3010",
+    "api:routes": "json-server --watch ./backend_api/db.json --port 3010 --routes ./backend_api/routes.json"
   },
   "repository": {
     "type": "git",

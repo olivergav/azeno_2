@@ -7,7 +7,7 @@
   ],
   "sets": [
     {
-      "name": "JavaScript",
+      "name": "Javascript",
       "id": 1,
       "level": "junior",
       "quantity": 130,
@@ -16,8 +16,8 @@
     {
       "name": "CSS",
       "id": 2,
-      "level": "junior",
-      "quantity": 100,
+      "level": "guru",
+      "quantity": 10,
       "image": "css.png"
     },
     {
@@ -30,9 +30,38 @@
     {
       "name": "Webpack",
       "id": 4,
-      "level": "junior",
+      "level": "mid",
       "quantity": 99,
       "image": "webpack.png"
+    }
+  ],
+  "cards": [
+    {
+      "id": 1,
+      "name": "elo"
+    },
+    {
+      "id": 2,
+      "name": "elo"
+    },
+    {
+      "id": 3,
+      "category": 1,
+      "name": "elo"
+    }
+  ],
+  "decks": [
+    {
+      "id": 1
+    },
+    {
+      "id": 2
+    },
+    {
+      "id": 3
+    },
+    {
+      "id": 4
     }
   ]
 }
