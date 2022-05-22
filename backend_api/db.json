@@ -4,5 +4,35 @@
       "id": 0,
       "name": "Lech"
     }
+  ],
+  "sets": [
+    {
+      "name": "JavaScript",
+      "id": 1,
+      "level": "junior",
+      "quantity": 130,
+      "image": "js.png"
+    },
+    {
+      "name": "CSS",
+      "id": 2,
+      "level": "junior",
+      "quantity": 100,
+      "image": "css.png"
+    },
+    {
+      "name": "React",
+      "id": 3,
+      "level": "junior",
+      "quantity": 420,
+      "image": "react.png"
+    },
+    {
+      "name": "Webpack",
+      "id": 4,
+      "level": "junior",
+      "quantity": 99,
+      "image": "webpack.png"
+    }
   ]
 }
