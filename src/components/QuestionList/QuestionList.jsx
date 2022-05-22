@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import Question from '../../Question/Question';
+import Question from '../Question/Question';
 
 function QuestionList() {
     return (
