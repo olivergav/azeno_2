@@ -1,5 +1,6 @@
 import React from 'react';
 import { BrowserRouter, Link, Route, Routes } from 'react-router-dom';
+import { Col, Container, Row } from 'react-bootstrap';
 
 import './App.scss';
 import Header from '../Header/Header';
@@ -8,7 +9,7 @@ import Profile from '../Profile/Profile';
 import Train from '../Train/Train';
 import Login from '../Auth/Login';
 import Register from '../Auth/Register';
-import { Col, Container, Row } from 'react-bootstrap';
+import QuestionList from '../QuestionList/QuestionList';
 
 function App() {
     const [cookie, setCookie] = useCookie('token_auth');
@@ -25,7 +26,7 @@ function App() {
                             <Route path="/train" element={<Train />} />
                             <Route path="/login" element={<Login />} />
                             <Route path="/register" element={<Register />} />
-                            <Route path="/train/:id" element={<h2>it works</h2>} />
+                            <Route path="/train/:id" element={<QuestionList />} />
                         </Routes>
                     </Col>
                 </Row>
