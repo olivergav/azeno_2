@@ -8,7 +8,7 @@ import './Header.scss';
 function Header(props) {
     return (
         <>
-            <Navbar bg="primary" variant="dark">
+            <Navbar bg="primary" variant="dark" className={'mb-3'}>
                 <Container>
                     <Navbar.Brand>
                         <Link to="/" className="logo__link">
