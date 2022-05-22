@@ -40,7 +40,7 @@
       "id": 1,
       "category": 1,
       "question": "Jak porozumiewają się śledzie?",
-      "answer": "Za pomocą pierdnięć"
+      "answer": "Za pomocą pierdnięć."
     },
     {
       "id": 2,
@@ -52,7 +52,7 @@
       "id": 3,
       "category": 1,
       "question": "Czy contextAPI służy do trzymania stanu w komponencie?",
-      "answer": "Do trzymania stanu komponentu używamy hooks lub this.state"
+      "answer": "Do trzymania stanu komponentu używamy hooks lub this.state."
     }
   ],
   "decks": [

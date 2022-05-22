@@ -1,3 +1,8 @@
+@keyframes text-animation {
+  from {color: transparent}
+  to {color: rgb(33, 37, 41)}
+}
+
 .flip-card {
   background-color: transparent;
   perspective: 1000px;
@@ -30,6 +35,12 @@
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+  }
+
+  .card-text {
+    animation-name: text-animation;
+    animation-duration: 300ms;
+    animation-direction: reverse;
   }
 }
 
