@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
-import Card from '../Card/Card';
+import CardSet from '../CardSet/CardSet';
+import { CardGroup, Col, Row } from 'react-bootstrap';
 
 function Train() {
     const [cards, setCards] = useState([]);
@@ -17,11 +18,20 @@ function Train() {
     }
 
     return (
-        <div>
-            {cards.map(({ id, name, level, quantity, image }) => {
-                <Card key={id} name={name} level={level} quantity={quantity} image={image} />;
-            })}
-        </div>
+        <Row xs={1} sm={2} md={4} className="g-4">
+            {cards.map(({ id, name, level, quantity, image }) => (
+                <Col>
+                    <CardSet
+                        key={id}
+                        id={id}
+                        name={name}
+                        level={level}
+                        quantity={quantity}
+                        image={image}
+                    />
+                </Col>
+            ))}
+        </Row>
     );
 }
 
