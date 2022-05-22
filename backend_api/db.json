@@ -38,16 +38,21 @@
   "cards": [
     {
       "id": 1,
-      "name": "elo"
+      "category": 1,
+      "question": "Jak porozumiewają się śledzie?",
+      "answer": "Za pomocą pierdnięć"
     },
     {
       "id": 2,
-      "name": "elo"
+      "category": 1,
+      "question": "Czym różni się let i const?",
+      "answer": "Const jest niemodyfikowalny."
     },
     {
       "id": 3,
       "category": 1,
-      "name": "elo"
+      "question": "Czy contextAPI służy do trzymania stanu w komponencie?",
+      "answer": "Do trzymania stanu komponentu używamy hooks lub this.state"
     }
   ],
   "decks": [
