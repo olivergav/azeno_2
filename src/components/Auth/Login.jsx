@@ -26,7 +26,7 @@ function Login() {
     return (
         <Card>
             <Card.Body>
-                <Card.Title>Card Title</Card.Title>
+                <Card.Title>Login</Card.Title>
                 <Form onSubmit={submitForm} className="d-flex flex-column">
                     <Form.Group className="mb-3" controlId="formBasicEmail">
                         <Form.Label>Email</Form.Label>
