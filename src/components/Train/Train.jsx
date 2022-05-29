@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import CardSet from '../CardSet/CardSet';
-import { CardGroup, Col, Row } from 'react-bootstrap';
+import { Col, Row } from 'react-bootstrap';
 
 function Train() {
     const [cards, setCards] = useState([]);

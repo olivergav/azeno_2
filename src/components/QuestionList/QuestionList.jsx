@@ -17,10 +17,13 @@ function QuestionList() {
 
     function updateNextQuestion() {
         if (questions.length) {
+            questions.filter((quest) => quest.answerdate <= Date.parse(new Date()));
             const id = Math.round(Math.random() * (questions.length - 1));
             const q = questions[id];
-            // setQuestions(questions.filter((x) => x !== q));
-            setQuestion(q);
+
+            if (questions[id].answerdate <= Date.parse(new Date())) {
+                setQuestion(q);
+            }
         }
     }
 
@@ -35,13 +38,20 @@ function QuestionList() {
     return (
         <div>
             {!question ? (
-                <h2>Loading...</h2>
-            ) : (
+                <>
+                    <h2>There is no more questions for you!</h2>
+                    <h3>Get some rest... See you tomorrow.</h3>
+                </>
+            ) : question.answerdate <= Date.parse(new Date()) ? (
                 <Question
                     question={question.question}
                     answer={question.answer}
                     updateNextQuestion={updateNextQuestion}
+                    category={question.category}
+                    id={question.id}
                 />
+            ) : (
+                <h2>There is no more question for you! Come back tomorrow.</h2>
             )}
         </div>
     );

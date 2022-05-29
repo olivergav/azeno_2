@@ -40,19 +40,22 @@
       "id": 1,
       "category": 1,
       "question": "Jak porozumiewają się śledzie?",
-      "answer": "Za pomocą pierdnięć."
+      "answer": "Za pomocą pierdnięć.",
+      "answerdate": 1654115547115
     },
     {
       "id": 2,
       "category": 1,
       "question": "Czym różni się let i const?",
-      "answer": "Const jest niemodyfikowalny."
+      "answer": "Const jest niemodyfikowalny.",
+      "answerdate": 1653942741447
     },
     {
       "id": 3,
       "category": 1,
       "question": "Czy contextAPI służy do trzymania stanu w komponencie?",
-      "answer": "Do trzymania stanu komponentu używamy hooks lub this.state."
+      "answer": "Do trzymania stanu komponentu używamy hooks lub this.state.",
+      "answerdate": 1654461151457
     }
   ],
   "decks": [
